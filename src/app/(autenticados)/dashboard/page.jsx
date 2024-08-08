@@ -75,7 +75,7 @@ export default function Dashboard() {
                         <td>
                             Carroll Group
                             <br />
-                            <span className="badge badge-ghost badge-sm">Tax Accountant</span>
+                            <input type="text" placeholder="Atestados " className="input input-bordered" />
                         </td>
                         <td>Red</td>
                         <th>
