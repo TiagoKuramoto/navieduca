@@ -22,9 +22,10 @@ export default function Menu() {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Homepage</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>About</a></li>
+                        <li><a>Início</a></li>
+                        <li><a>Horas de aula</a></li>
+                        <li><a>Atividades</a></li>
+                        <li><a>Lista de chamada</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,12 +46,15 @@ export default function Menu() {
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li>
                             <a className="justify-between">
-                                Profile
-                                <span className="badge">New</span>
+                                Perfil
                             </a>
                         </li>
-                        <li><a>Settings</a></li>
-                        <li><a>Logout</a></li>
+                        <li>
+                            <a>configurações
+                            <span className="badge">New</span>
+                            </a>
+                        </li>
+                        <li><a>sair</a></li>
                     </ul>
                 </div>
             </div>
