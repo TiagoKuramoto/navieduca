@@ -1,30 +1,21 @@
 
 export default function Dashboard() {
     return (
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto  mx-auto container">
             <table className="table">
                 {/* head */}
                 <thead>
                     <tr>
-                        <th>
-                            <label>
-                                <input type="checkbox" className="checkbox" />
-                            </label>
-                        </th>
                         <th>Name</th>
                         <th>Sobre o aluno</th>
-                        <th>Favorite Color</th>
-                        <th></th>
+                        <th>faltas</th>
+                        <th>presenças</th>
                     </tr>
                 </thead>
                 <tbody>
                     {/* row 1 */}
                     <tr>
-                        <th>
-                            <label>
-                                <input type="checkbox" className="checkbox" />
-                            </label>
-                        </th>
+
                         <td>
                             <div className="flex items-center gap-3">
                                 <div className="avatar">
@@ -38,6 +29,7 @@ export default function Dashboard() {
                                     <div className="font-bold">João Pereira</div>
                                     <div className="text-sm opacity-50">Aluno</div>
                                 </div>
+
                             </div>
                         </td>
                         <td>
@@ -45,118 +37,125 @@ export default function Dashboard() {
                             <br />
                             <input type="text" placeholder="Atestados " className="input input-bordered" />
                         </td>
-                        <td>Purple</td>
+
                         <th>
-                            <button className="btn btn-ghost btn-xs">details</button>
+                            <label>
+                            <input type="radio" name="radio-1" className="checkbox" defaultChecked />
+                            
+                            </label>    
                         </th>
-                    </tr>
-                    {/* row 2 */}
-                    <tr>
                         <th>
                             <label>
                                 <input type="checkbox" className="checkbox" />
                             </label>
                         </th>
+                    </tr>
+                    <tr>
+
                         <td>
                             <div className="flex items-center gap-3">
                                 <div className="avatar">
                                     <div className="mask mask-squircle h-12 w-12">
                                         <img
-                                            src="https://img.daisyui.com/images/profile/demo/3@94.webp"
+                                            src="https://img.daisyui.com/images/profile/demo/2@94.webp"
                                             alt="Avatar Tailwind CSS Component" />
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="font-bold">Brice Swyre</div>
-                                    <div className="text-sm opacity-50">China</div>
+                                    <div className="font-bold">João Pereira</div>
+                                    <div className="text-sm opacity-50">Aluno</div>
                                 </div>
+
                             </div>
                         </td>
                         <td>
-                            Carroll Group
+                            João Pereira
                             <br />
                             <input type="text" placeholder="Atestados " className="input input-bordered" />
                         </td>
-                        <td>Red</td>
-                        <th>
-                            <button className="btn btn-ghost btn-xs">details</button>
-                        </th>
-                    </tr>
-                    {/* row 3 */}
-                    <tr>
+
                         <th>
                             <label>
                                 <input type="checkbox" className="checkbox" />
                             </label>
                         </th>
-                        <td>
-                            <div className="flex items-center gap-3">
-                                <div className="avatar">
-                                    <div className="mask mask-squircle h-12 w-12">
-                                        <img
-                                            src="https://img.daisyui.com/images/profile/demo/4@94.webp"
-                                            alt="Avatar Tailwind CSS Component" />
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="font-bold">Marjy Ferencz</div>
-                                    <div className="text-sm opacity-50">Russia</div>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            Rowe-Schoen
-                            <br />
-                            <span className="badge badge-ghost badge-sm">Office Assistant I</span>
-                        </td>
-                        <td>Crimson</td>
-                        <th>
-                            <button className="btn btn-ghost btn-xs">details</button>
-                        </th>
-                    </tr>
-                    {/* row 4 */}
-                    <tr>
                         <th>
                             <label>
                                 <input type="checkbox" className="checkbox" />
                             </label>
                         </th>
+                    </tr>
+                    <tr>
+
                         <td>
                             <div className="flex items-center gap-3">
                                 <div className="avatar">
                                     <div className="mask mask-squircle h-12 w-12">
                                         <img
-                                            src="https://img.daisyui.com/images/profile/demo/5@94.webp"
+                                            src="https://img.daisyui.com/images/profile/demo/2@94.webp"
                                             alt="Avatar Tailwind CSS Component" />
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="font-bold">Yancy Tear</div>
-                                    <div className="text-sm opacity-50">Brazil</div>
+                                    <div className="font-bold">João Pereira</div>
+                                    <div className="text-sm opacity-50">Aluno</div>
                                 </div>
+
                             </div>
                         </td>
                         <td>
-                            Wyman-Ledner
+                            João Pereira
                             <br />
-                            <span className="badge badge-ghost badge-sm">Community Outreach Specialist</span>
+                            <input type="text" placeholder="Atestados " className="input input-bordered" />
                         </td>
-                        <td>Indigo</td>
+
                         <th>
-                            <button className="btn btn-ghost btn-xs">details</button>
+                            <label>
+                                <input type="checkbox" className="checkbox" />
+                            </label>
+                        </th>
+                        <th>
+                            <label>
+                                <input type="checkbox" className="checkbox" />
+                            </label>
+                        </th>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <div className="flex items-center gap-3">
+                                <div className="avatar">
+                                    <div className="mask mask-squircle h-12 w-12">
+                                        <img
+                                            src="https://img.daisyui.com/images/profile/demo/2@94.webp"
+                                            alt="Avatar Tailwind CSS Component" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="font-bold">João Pereira</div>
+                                    <div className="text-sm opacity-50">Aluno</div>
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            João Pereira
+                            <br />
+                            <input type="text" placeholder="Atestados " className="input input-bordered" />
+                        </td>
+
+                        <th>
+                            <label>
+                                <input type="checkbox" className="checkbox" />
+                            </label>
+                        </th>
+                        <th>
+                            <label>
+                                <input type="checkbox" className="checkbox" />
+                            </label>
                         </th>
                     </tr>
                 </tbody>
-                {/* foot */}
-                <tfoot>
-                    <tr>
-                        <th></th>
-                        <th>Name</th>
-                        <th>Job</th>
-                        <th>Favorite Color</th>
-                        <th></th>
-                    </tr>
-                </tfoot>
             </table>
         </div>
     )
