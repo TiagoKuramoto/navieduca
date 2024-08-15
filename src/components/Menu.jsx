@@ -1,5 +1,7 @@
 'use client'
 
+import Link from "next/link"
+
 export default function Menu() {
     return (
         <div className="navbar bg-base-100 mx-auto container">
@@ -54,7 +56,11 @@ export default function Menu() {
                             <span className="badge">New</span>
                             </a>
                         </li>
-                        <li><a>sair</a></li>
+                        <li>
+                            <Link href='/'>
+                                sair
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
