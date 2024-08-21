@@ -24,7 +24,7 @@ export default function Painel() {
 
         return (
 
-            <section className="container mx-auto flex items-center gap-5 flex-wrap justify-center">
+            <section className="container mx-auto flex items-start gap-5 flex-wrap justify-center h-screen">
                 {
                     turma.map((item) => {
                         return (
